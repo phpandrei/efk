@@ -1,0 +1,67 @@
+version: "3.8"
+services:
+
+    # PHP service
+    app-efk:
+        build: ./docker/php
+        container_name: php-app-efk
+        working_dir: /var/www/
+        volumes:
+            - ./app:/var/www
+            # можем тут через вольем добавить новый файл для пула. Главное не переопределять дефальтовый
+            - ./etc_php/www.conf:/usr/local/etc/php-fpm.d/www1.conf
+            - ./etc_php/custom.ini:/usr/local/etc/php/conf.d/custom.ini
+        networks:
+            - app-network-efk
+
+    # Nginx service
+    nginx-efk:
+        image: nginx:alpine
+        container_name: php-nginx-efk
+        ports:
+            - 8001:80
+        volumes:
+            - ./app:/var/www
+            - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+        networks:
+            - app-network-efk
+
+    fluentd:
+        build: ./docker/fluentd
+        volumes:
+#            - ./fluentd:/fluentd/etc
+            - ./fluentd/conf:/fluentd/etc
+            - ./fluentd/data:/data/log
+            - ./app/path/to:/data/my
+#            - ./docker/fluentd/plugins:/usr/lib/ruby/gems/2.5.0
+        links:
+            - elasticsearch
+        ports:
+            - "24224:24224"
+            - "24224:24224/udp"
+
+    elasticsearch:
+        image: elasticsearch:7.17.0
+        environment:
+            discovery.type: single-node #без кластера
+            export ES_HEAP_SIZE: 1g #тут указываем какие то памяти. У меня не хватало
+            export.ES_HEAP_SIZE: 1g
+            ES_HEAP_SIZE: 1g
+            ES_JAVA_OPTS: "-Xms1g -Xmx1g"
+        ports:
+            - 9201:9200
+
+    kibana:
+        #image: kibana:8.4.1
+        image: kibana:7.13.1
+        links:
+            - elasticsearch
+        ports:
+            - "5601:5601"
+#configs:
+#    zz-docker.conf.1:
+#        file: ./docker/php/zz-docker.conf
+
+networks:
+    app-network-efk:
+        driver: bridge

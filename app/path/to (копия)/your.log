@@ -1,0 +1,4 @@
+[2022-09-22 13:29:36] name.WARNING: Foo {"myWarning":{"name":"Andrei","old":"35"}} []
+[2022-09-22 13:29:36] name.ERROR: Bar {"myError":{"name":"Andrei","old":"35"}} []
+[2022-09-22 13:29:36] name.WARNING: Foo {"myWarning":{"name":"Andrei","old":"35"}} []
+[2022-09-22 13:29:36] name.ERROR: Bar {"myError":{"name":"Andrei","old":"35"}} []

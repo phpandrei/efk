@@ -1,0 +1,12 @@
+FROM fluent/fluentd:v0.12-debian
+
+
+#RUN buildDeps="sudo make gcc g++ libc-dev ruby-dev" \
+# && apt-get update \
+# && apt-get install -y --no-install-recommends $buildDeps \
+# && sudo gem install \
+#    fluent-plugin-elasticsearch
+#RUN ["gem", "install", "representable", "-no-rdoc", "-no-ri", "--version", "3.0.4"]
+#RUN ["gem", "install", "faraday", "-no-rdoc", "-no-ri", "--version", "0.17.4"]
+#RUN ["gem", "install", "embulk-output-bigquery"]
+#RUN ["gem", "install", "fluent-plugin-elasticsearch", "-no-rdoc", "-no-ri", "--version", "1.9.2"]

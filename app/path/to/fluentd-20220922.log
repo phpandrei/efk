@@ -1,0 +1,11 @@
+[2022-09-22 13:37:41] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 13:37:41] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 13:37:41] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 13:37:41] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+{"myError":{"name":"1myErrorAndrei1","old":"25"}}
+{"myError":{"name":"1myErrorAndrei1","old":"25"}}
+{"myError":{"name":"1myErrorAndrei1","old":"25"}}
+{"myError":{"name":"1myErrorAndrei1","old":"25"}}[2022-09-22 13:47:35] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 13:47:35] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 13:47:35] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 13:47:35] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []

@@ -1,0 +1,29 @@
+{
+    "name": "sobes/efk",
+    "type": "project",
+    "description": "efk for sobes with docker.",
+    "repositories": {
+        "0": {
+            "type": "vcs",
+            "url": "https://github.com/phpandrei/myPackageExample"
+        }
+    },
+    "config": {
+        "github-oauth": {
+            "github.com": "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"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kozlov Andrei",
+            "email": "phpandrei@gmail.com"
+        }
+    ],
+    "require": {
+        "sobes/mypackageexample": "1.0.4",
+        "monolog/monolog": "1.25.2"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "4.4.44"
+    }
+}
