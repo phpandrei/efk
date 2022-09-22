@@ -6,7 +6,7 @@ use Monolog\Handler\StreamHandler;
 
 // create a log channel
 $log = new Logger('name');
-$log->pushHandler(new StreamHandler('path/to/fluentd-' . date('Ymd', time()) . '.log', Logger::WARNING));
+$log->pushHandler(new StreamHandler('path/to/fluentd-' . \Carbon\CarbonImmutable::now()->format('Ymd') . '.log', Logger::WARNING));
 
 // add records to the log
 $log->addWarning(
@@ -38,3 +38,9 @@ $log->addInfo(
 );
 
 dump($log);
+
+
+dump(\Carbon\CarbonImmutable::now());
+dump(\Carbon\CarbonImmutable::now()->toDateTimeString());
+dump(\Carbon\CarbonImmutable::now()->toDateString());
+dump(\Carbon\CarbonImmutable::now()->format('Ymd'));

@@ -21,7 +21,8 @@
     ],
     "require": {
         "sobes/mypackageexample": "1.0.4",
-        "monolog/monolog": "1.25.2"
+        "monolog/monolog": "1.25.2",
+        "nesbot/carbon": "^2.62"
     },
     "require-dev": {
         "symfony/var-dumper": "4.4.44"
