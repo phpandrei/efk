@@ -70,3 +70,7 @@
 [2022-09-22 16:09:22] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
 [2022-09-22 16:09:22] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
 [2022-09-22 16:09:22] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 21:03:21] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 21:03:21] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 21:03:21] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 21:03:21] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
