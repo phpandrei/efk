@@ -9,6 +9,8 @@
 
 потом идем в Discover и там всё видим
 
+https://kamaok.org.ua/?p=3386
+
 #### Плагин
 fluent-plugin-elasticsearch:
 https://rubygems.org/gems/fluent-plugin-elasticsearch/versions/5.2.3

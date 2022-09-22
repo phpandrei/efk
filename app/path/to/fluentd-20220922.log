@@ -9,3 +9,48 @@
 [2022-09-22 13:47:35] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
 [2022-09-22 13:47:35] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
 [2022-09-22 13:47:35] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:04:28] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:04:28] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:04:28] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:04:28] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:07:59] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:07:59] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:07:59] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:07:59] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:15:21] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:15:21] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:15:21] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:15:21] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2013-02-28 12:00:00 +0900] alice engineer 1
+[2013-02-28 12:00:00 +0900] alice engineer 1
+[2013-02-28 12:00:00 +0900] alice engineer 1
+[2013-02-28 12:00:00 +0900] alice engineer 1
+[2022-09-22 15:15:15 +0900] alice engineer 1
+[2022-09-22 15:15:15 +0900] alice engineer 1[2022-09-22 15:25:47] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:25:47] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:25:47] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:25:47] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:30:28] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:30:28] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:30:28] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:30:28] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:33:11] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:33:11] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:33:11] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:33:11] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:33:11] name.ERROR
+[2022-09-22 15:33:11] name.ERROR
+[2022-09-22 15:33:11] name.ERROR
+[2022-09-22 15:33:11] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:41:50] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:41:50] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:41:50] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:41:50] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:44:39] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:44:39] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:44:39] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:44:39] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:45:40] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:45:40] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
+[2022-09-22 15:45:40] name.WARNING: Foo {"myWarning":{"name":"myWarningAndrei","old":"18"}} []
+[2022-09-22 15:45:40] name.ERROR: Bar {"myError":{"name":"myErrorAndrei","old":"25"}} []
